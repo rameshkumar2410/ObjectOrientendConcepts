@@ -10,13 +10,13 @@ public class SpecialBirdInheritance {
 
 	public static void main(String arg[]) {
 		SpecialBird bird=new Duck();
-		bird.getSound();
+		bird.getMessage("Duck");
 		bird.activity();
-		System.out.println(""+bird.activity()+"   "+bird.getSound());
+		System.out.println(""+bird.activity());
 		bird=new Chicken();
-		bird.getSound();
+		bird.getMessage("Chicken");
 		bird.activity();
-		System.out.println(""+bird.activity()+"   "+bird.getSound());
+		System.out.println(""+bird.activity());
 	}
 	
 }
