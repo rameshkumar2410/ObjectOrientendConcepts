@@ -1,10 +1,10 @@
-package com.ord.oopconcept.question3.test;
+package com.org.oopconcept.question3.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import com.ord.oopconcept.question3.Rooster;
+import com.org.oopconcept.question3.Rooster;
 
 public class RoosterTest {
 	

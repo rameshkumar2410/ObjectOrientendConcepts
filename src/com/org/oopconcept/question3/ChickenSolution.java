@@ -1,4 +1,4 @@
-package com.ord.oopconcept.question3;
+package com.org.oopconcept.question3;
 
 public class ChickenSolution {
 
