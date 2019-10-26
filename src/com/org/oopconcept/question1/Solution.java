@@ -12,5 +12,7 @@ public class Solution {
 		bird.fly();
 		bird.walk();
 		bird.sing();
+		System.out.println("  "+bird.fly()+"   "+bird.walk()+"   "+bird.sing());
+		
 	}
 }
