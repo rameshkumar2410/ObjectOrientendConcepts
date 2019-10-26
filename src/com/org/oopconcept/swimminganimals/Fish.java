@@ -21,4 +21,16 @@ public class Fish implements FishInterface {
 		return "Fishes can swim";
 	}
 
+	@Override
+	public String getFishBodyType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getFishActivities() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

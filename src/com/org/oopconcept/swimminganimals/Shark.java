@@ -1,16 +1,38 @@
 package com.org.oopconcept.swimminganimals;
 
+import com.org.inter.oopconcept.FishInterface;
+
 /**
  * 
  * @author Ramesh
  *
  */
-public class Shark extends SpecializeFish{
+public class Shark implements FishInterface{
 
-	public Shark(boolean isShark, boolean isClown) {
-		super(true, false);
+	public String getFishBodyType() {
+		return "Sharks are large and grey";
 	}
-	
-	
+
+	public String getFishActivities() {
+		return "Sharks eat other fish";
+	}
+
+	@Override
+	public String sing() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String walk() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String swim() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

@@ -15,12 +15,23 @@ public class SpecializeFish {
 		this.isClown = isClown;
 	}
 
-	public boolean isShark() {
-		return isShark;
+	public boolean getIsShark() {
+		return this.isShark;
 	}
 
-	public boolean isClown() {
-		return isClown;
+	public boolean getIsClown() {
+		return this.isClown;
 	}
 
+	public static String fishType(String type, String color) {
+		if (type.equals("Large") && color.equals("Grey")) {
+			Shark shrk = new Shark();
+			return shrk.getFishBodyType() + "\n" + shrk.getFishActivities();
+		}
+		if (type.equals("Small") && color.equals("Orange")) {
+			ClownFish clown = new ClownFish();
+			return clown.getFishBodyType() + "\n" + clown.getFishActivities();
+		}
+		return null;
+	}
 }
