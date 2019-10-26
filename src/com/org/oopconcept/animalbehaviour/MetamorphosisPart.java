@@ -1,4 +1,4 @@
-package com.org.inter.oopconcept.animalbehaviour;
+package com.org.oopconcept.animalbehaviour;
 
 /**
  * 

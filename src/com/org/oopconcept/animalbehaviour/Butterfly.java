@@ -1,6 +1,6 @@
-package com.org.inter.oopconcept.animalbehaviour;
+package com.org.oopconcept.animalbehaviour;
 
-import com.org.inter.oopconcept.FlyingInsect;
+import com.org.oopconcept.FlyingInsect;
 
 public class Butterfly implements FlyingInsect {
 	@Override

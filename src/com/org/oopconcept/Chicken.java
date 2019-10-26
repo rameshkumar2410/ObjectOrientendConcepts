@@ -1,4 +1,4 @@
-package com.org.inter.oopconcept;
+package com.org.oopconcept;
 
 /**
  * 

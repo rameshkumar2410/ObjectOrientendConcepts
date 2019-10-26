@@ -1,13 +1,13 @@
-package com.org.inter.oopconcept.animalbehaviour.test;
+package com.org.oopconcept.animalbehaviour.test;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import com.org.inter.oopconcept.FlyingInsect;
-import com.org.inter.oopconcept.animalbehaviour.Butterfly;
-import com.org.inter.oopconcept.animalbehaviour.Caterpillar;
+import com.org.oopconcept.FlyingInsect;
+import com.org.oopconcept.animalbehaviour.Butterfly;
+import com.org.oopconcept.animalbehaviour.Caterpillar;
 
 /**
  * 

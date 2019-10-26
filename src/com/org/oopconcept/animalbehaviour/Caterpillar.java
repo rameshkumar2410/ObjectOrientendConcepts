@@ -1,7 +1,7 @@
-package com.org.inter.oopconcept.animalbehaviour;
+package com.org.oopconcept.animalbehaviour;
 
-import com.org.inter.oopconcept.CrawlingInsect;
-import com.org.inter.oopconcept.FlyingInsect;
+import com.org.oopconcept.CrawlingInsect;
+import com.org.oopconcept.FlyingInsect;
 
 public class Caterpillar implements CrawlingInsect {
 	@Override

@@ -1,6 +1,6 @@
 package com.org.oopconcept.question3;
 
-import com.org.inter.oopconcept.Chicken;
+import com.org.oopconcept.Chicken;
 
 /**
  * 

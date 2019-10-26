@@ -1,6 +1,6 @@
 package com.org.oopconcept.question1;
 
-import com.org.inter.oopconcept.BirdActivities;
+import com.org.oopconcept.BirdActivities;
 
 /**
  * 

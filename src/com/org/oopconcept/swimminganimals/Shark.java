@@ -1,6 +1,6 @@
 package com.org.oopconcept.swimminganimals;
 
-import com.org.inter.oopconcept.FishInterface;
+import com.org.oopconcept.FishInterface;
 
 /**
  * 
