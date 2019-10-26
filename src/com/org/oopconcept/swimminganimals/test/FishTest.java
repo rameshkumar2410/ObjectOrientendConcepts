@@ -3,6 +3,8 @@ package com.org.oopconcept.swimminganimals.test;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
+
+import com.org.oopconcept.swimminganimals.Dolphin;
 import com.org.oopconcept.swimminganimals.SpecializeFish;
 
 /**
@@ -20,6 +22,13 @@ public class FishTest {
 		String clown = SpecializeFish.fishType("Small", "Orange");
 		assertNotNull(clown);
 		assertEquals("Clownfish are small and colourful\n" + "Clownfish make jokes", clown);
+	}
+	
+	@Test
+	public void dolphinTest() {
+		String dolphinMsg=new Dolphin().swim();
+		assertNotNull(dolphinMsg);
+		assertEquals("Dolphin can swim", dolphinMsg);
 	}
 
 }
