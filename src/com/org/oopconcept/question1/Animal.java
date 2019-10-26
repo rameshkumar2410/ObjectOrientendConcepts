@@ -1,4 +1,4 @@
-package com.org.oopconcept;
+package com.org.oopconcept.question1;
 
 /**
  * 

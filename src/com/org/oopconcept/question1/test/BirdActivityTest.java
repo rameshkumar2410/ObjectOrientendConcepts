@@ -1,10 +1,10 @@
-package com.org.oopconcept.test;
+package com.org.oopconcept.question1.test;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import com.org.oopconcept.Bird;
+import com.org.oopconcept.question1.Bird;
 /**
  * 
  * @author Ramesh
